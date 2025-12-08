@@ -1,36 +1,22 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-  appearance: none;
+.img-receta {
+  height: 200px;   
+  object-fit: cover;   
+  width: 100%;      
 }
 
-form {
-    display: flex;
-    max-width: 320px;
-    flex-direction: column;
+.card {
+  max-width: 320px;
+  border: 1 solid transparent;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
 }
 
-.searchInput {
-    width: 100%;
-    /* margin: 0 auto; */
-    /* display: block; */
-    border: none;
-    border-radius: 20px;
-}
-
-.checkbox-wrapper {
-    display: flex;
-    justify-content: flex-end; /* mueve todo a la derecha */
-    width: 100%;
-}
-
-.card-title {
-    white-space: nowrap;    /* Evita salto de línea */
-    overflow: hidden;       /* Oculta lo que no cabe */
-    text-overflow: ellipsis; /* Muestra "..." si es muy largo */
+.card:hover {
+  translate: 0 -5px;
+  border: 1px solid #aaa;
 }

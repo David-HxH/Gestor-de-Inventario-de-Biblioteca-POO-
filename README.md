@@ -1,3 +1,3 @@
-## ✨ Filtrador de peluculas usando bootstrap
+## ✨ EF-M3 Proyecto Integrador Sprint 1
 
-la funcionalidad es basica ya que es con fines de aprendizaje.
+Sprint 1: Maquetación y Prototipo Visual del "Buscador de Recetas"

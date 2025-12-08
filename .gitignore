@@ -2,3 +2,6 @@
 
 codigoTareas
 img
+node_modules
+.env
+.DS_Store
